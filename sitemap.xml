@@ -44,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/tags/</loc>
-    <lastmod>2020-03-10T00:13:27+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://wtyang2000.github.io/about/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/tags/tags/</loc>
+    <loc>http://wtyang2000.github.io/tags/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
