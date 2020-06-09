@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://wtyang2000.github.io/sitemap.xml
+Sitemap: http://note.2inf.top/sitemap.xml

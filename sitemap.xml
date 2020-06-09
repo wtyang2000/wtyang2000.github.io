@@ -1,78 +1,78 @@
-<?xml-stylesheet type="text/xsl" href="http://wtyang2000.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://note.2inf.top/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wtyang2000.github.io/</loc>
+    <loc>http://note.2inf.top/</loc>
     <lastmod>2020-06-08T21:00:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/post/poj3420-quad-tiling/</loc>
+    <loc>http://note.2inf.top/post/poj3420-quad-tiling/</loc>
     <lastmod>2020-06-08T21:00:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/post/</loc>
+    <loc>http://note.2inf.top/post/</loc>
     <lastmod>2020-06-08T21:00:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/categories/</loc>
+    <loc>http://note.2inf.top/categories/</loc>
     <lastmod>2020-05-20T17:13:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/categories/others/</loc>
+    <loc>http://note.2inf.top/categories/others/</loc>
     <lastmod>2020-05-20T17:13:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/post/test-post/</loc>
+    <loc>http://note.2inf.top/post/test-post/</loc>
     <lastmod>2020-05-20T17:13:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/about/</loc>
+    <loc>http://note.2inf.top/about/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/archives/</loc>
+    <loc>http://note.2inf.top/archives/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/categories/</loc>
+    <loc>http://note.2inf.top/categories/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/tags/</loc>
+    <loc>http://note.2inf.top/tags/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wtyang2000.github.io/tags/</loc>
+    <loc>http://note.2inf.top/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Others on 2inf</title>
-    <link>http://wtyang2000.github.io/categories/others/</link>
+    <link>http://note.2inf.top/categories/others/</link>
     <description>Recent content in Others on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 May 2020 17:13:29 +0800</lastBuildDate>
     
-	<atom:link href="http://wtyang2000.github.io/categories/others/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://note.2inf.top/categories/others/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Post</title>
-      <link>http://wtyang2000.github.io/post/test-post/</link>
+      <link>http://note.2inf.top/post/test-post/</link>
       <pubDate>Wed, 20 May 2020 17:13:29 +0800</pubDate>
       
-      <guid>http://wtyang2000.github.io/post/test-post/</guid>
+      <guid>http://note.2inf.top/post/test-post/</guid>
       <description>&lt;p&gt;本文是一篇测试博文&lt;/p&gt;</description>
     </item>
     

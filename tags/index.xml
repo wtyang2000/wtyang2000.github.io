@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 2inf</title>
-    <link>http://wtyang2000.github.io/tags/</link>
+    <link>http://note.2inf.top/tags/</link>
     <description>Recent content in Tags on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://wtyang2000.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://note.2inf.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 2inf</title>
-    <link>http://wtyang2000.github.io/categories/</link>
+    <link>http://note.2inf.top/categories/</link>
     <description>Recent content in Categories on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 May 2020 17:13:29 +0800</lastBuildDate>
     
-	<atom:link href="http://wtyang2000.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://note.2inf.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Others</title>
-      <link>http://wtyang2000.github.io/categories/others/</link>
+      <link>http://note.2inf.top/categories/others/</link>
       <pubDate>Wed, 20 May 2020 17:13:29 +0800</pubDate>
       
-      <guid>http://wtyang2000.github.io/categories/others/</guid>
+      <guid>http://note.2inf.top/categories/others/</guid>
       <description></description>
     </item>
     
