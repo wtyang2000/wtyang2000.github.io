@@ -3,7 +3,56 @@
   
   <url>
     <loc>http://note.2inf.top/</loc>
-    <lastmod>2020-06-21T12:39:07+08:00</lastmod>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/kuangbin-4/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/categories/algorithm/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/categories/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/kuangbin/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/%E5%9F%BA%E7%A1%80-%E6%9C%80%E7%9F%AD%E8%B7%AF/</loc>
+    <lastmod>2020-08-23T13:14:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://note.2inf.top/post/</loc>
+    <loc>http://note.2inf.top/tags/%E5%9F%BA%E7%A1%80-%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2020-06-21T12:39:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -25,13 +74,6 @@
   <url>
     <loc>http://note.2inf.top/post/poj3420-quad-tiling/</loc>
     <lastmod>2020-06-08T21:00:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/categories/</loc>
-    <lastmod>2020-05-20T17:13:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,12 +116,6 @@
   <url>
     <loc>http://note.2inf.top/tags/</loc>
     <lastmod>2020-03-10T00:13:27+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
