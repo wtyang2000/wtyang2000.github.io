@@ -6,10 +6,19 @@
     <description>Recent content in kuangbin on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 13:14:36 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 18:05:50 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/tags/kuangbin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[kuangbin带你飞]专题五 并查集</title>
+      <link>http://note.2inf.top/post/kuangbin-5/</link>
+      <pubDate>Sun, 30 Aug 2020 18:05:50 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-5/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[kuangbin带你飞]专题四 最短路练习</title>

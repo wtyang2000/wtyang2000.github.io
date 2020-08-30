@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据结构-并查集 on 2inf</title>
+    <link>http://note.2inf.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
+    <description>Recent content in 数据结构-并查集 on 2inf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 18:05:50 +0800</lastBuildDate>
+    
+	<atom:link href="http://note.2inf.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[kuangbin带你飞]专题五 并查集</title>
+      <link>http://note.2inf.top/post/kuangbin-5/</link>
+      <pubDate>Sun, 30 Aug 2020 18:05:50 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-5/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 13:14:36 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 18:05:50 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,27 @@
     <item>
       <title>kuangbin</title>
       <link>http://note.2inf.top/tags/kuangbin/</link>
-      <pubDate>Sun, 23 Aug 2020 13:14:36 +0800</pubDate>
+      <pubDate>Sun, 30 Aug 2020 18:05:50 +0800</pubDate>
       
       <guid>http://note.2inf.top/tags/kuangbin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>基础-最短路</title>
-      <link>http://note.2inf.top/tags/%E5%9F%BA%E7%A1%80-%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
+      <title>数据结构-并查集</title>
+      <link>http://note.2inf.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
+      <pubDate>Sun, 30 Aug 2020 18:05:50 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%B9%B6%E6%9F%A5%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图论-最短路</title>
+      <link>http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
       <pubDate>Sun, 23 Aug 2020 13:14:36 +0800</pubDate>
       
-      <guid>http://note.2inf.top/tags/%E5%9F%BA%E7%A1%80-%E6%9C%80%E7%9F%AD%E8%B7%AF/</guid>
+      <guid>http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E7%9F%AD%E8%B7%AF/</guid>
       <description></description>
     </item>
     
