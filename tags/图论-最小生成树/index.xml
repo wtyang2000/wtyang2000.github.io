@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图论-最小生成树 on 2inf</title>
+    <link>http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</link>
+    <description>Recent content in 图论-最小生成树 on 2inf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 23:53:45 +0800</lastBuildDate>
+    
+	<atom:link href="http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[kuangbin带你飞]专题六 最小生成树</title>
+      <link>http://note.2inf.top/post/kuangbin-6/</link>
+      <pubDate>Mon, 07 Sep 2020 23:53:45 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

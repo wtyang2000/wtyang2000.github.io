@@ -6,10 +6,19 @@
     <description>Recent content in Algorithm on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2020 18:05:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 23:53:45 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[kuangbin带你飞]专题六 最小生成树</title>
+      <link>http://note.2inf.top/post/kuangbin-6/</link>
+      <pubDate>Mon, 07 Sep 2020 23:53:45 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-6/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[kuangbin带你飞]专题五 并查集</title>

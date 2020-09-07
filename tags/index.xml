@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2020 18:05:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 23:53:45 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>kuangbin</title>
       <link>http://note.2inf.top/tags/kuangbin/</link>
-      <pubDate>Sun, 30 Aug 2020 18:05:50 +0800</pubDate>
+      <pubDate>Mon, 07 Sep 2020 23:53:45 +0800</pubDate>
       
       <guid>http://note.2inf.top/tags/kuangbin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图论-最小生成树</title>
+      <link>http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</link>
+      <pubDate>Mon, 07 Sep 2020 23:53:45 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/tags/%E5%9B%BE%E8%AE%BA-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</guid>
       <description></description>
     </item>
     
