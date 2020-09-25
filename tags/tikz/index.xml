@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TikZ on 2inf</title>
+    <link>http://note.2inf.top/tags/tikz/</link>
+    <description>Recent content in TikZ on 2inf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Sep 2020 00:17:53 +0800</lastBuildDate>
+    
+	<atom:link href="http://note.2inf.top/tags/tikz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Circuitikz 学习笔记</title>
+      <link>http://note.2inf.top/post/circuitikz/</link>
+      <pubDate>Thu, 24 Sep 2020 00:17:53 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/circuitikz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

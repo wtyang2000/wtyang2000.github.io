@@ -35,7 +35,7 @@
 
 
 
-<link href="/sass/main.min.957b3294b4d268071a5b8e8d023a9c537752eb5371fadcf8dcc63a58fe6a65f1.css" rel="stylesheet">
+<link href="/sass/main.min.0aebdc33cd7c5434f4ad9c11881c736fd86d7112514d7631e4fd6bc098423d62.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 <link rel="stylesheet" href="/lib/fontawesome-free/all.min.css" rel="stylesheet">
 
@@ -52,11 +52,11 @@
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2020-09-24T00:17:53&#43;08:00" />
 <meta itemprop="dateModified" content="2020-09-24T00:17:53&#43;08:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="385">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="TikZ," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Circuitikz 学习笔记"/>
 <meta name="twitter:description" content=""/>
 
@@ -129,7 +129,9 @@
 
       <div class="post-meta">
         <span class="post-time"><i class="fa fa-calendar-alt" aria-hidden="true"></i> 2020-09-24 </span>
-        
+        <div class="post-category">
+            <a href="/categories/latex/"> LaTeX </a>
+            </div>
         
       </div>
     </header>
@@ -141,12 +143,208 @@
   </div>
 </div>
     <div class="post-content">
-      
+      <p>一个简单的例子如下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+
+<span class="k">\usepackage</span><span class="nb">{</span>tikz<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>figure<span class="nb">}</span>
+    <span class="k">\begin</span><span class="nb">{</span>center<span class="nb">}</span>
+        <span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+            <span class="k">\draw</span> (0,0) to[V,v=<span class="s">$</span><span class="nb">U_s</span><span class="s">$</span>] (0,2) -- (2,2)
+            to[R=<span class="s">$</span><span class="nb">R_</span><span class="m">1</span><span class="s">$</span>] (2,0) -- (0,0);
+        <span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+        <span class="k">\caption</span><span class="nb">{</span>Example 1.<span class="nb">}</span>
+    <span class="k">\end</span><span class="nb">{</span>center<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>figure<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/example_1.png" alt="image"></p>
+<p>  这个电阻并不是我们熟悉的样子，做如下改变，把美国的标准换成欧洲</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\usepackage</span><span class="na">[european]</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>则下面的 tex 编译为</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+    <span class="k">\draw</span> (0,0) to[R=<span class="s">$</span><span class="nb">R_u</span><span class="s">$</span>,o-*](2,0) to[short](2,1) to[C=<span class="s">$</span><span class="nb">C_d</span><span class="s">$</span>](4,1) to[short](4,0) to[short,*-o](5,0);
+    <span class="k">\draw</span> (2,0) to[short](2,-1) to[R=<span class="s">$</span><span class="nb">R_{</span><span class="m">1</span><span class="nb">}</span><span class="s">$</span>](4,-1) to[short](4,0);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/example_2.png" alt="image"></p>
+<p>  下面我们看看多个回路的情况</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+    <span class="k">\draw</span> (0,0) to[V=1V] (0,2) to[R=<span class="s">$</span><span class="m">1</span><span class="nv">\Omega</span><span class="s">$</span>] (2,2) -- (4,2) to[C=1F] (4,0) -- (0,0);
+    <span class="k">\draw</span> (2,2) to[L=1H, *-*] (2,0);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/example_3.png" alt="image"></p>
+<p>  地线的画法</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+    <span class="k">\draw</span> (-1,0) to[short,o-o] (1,0);
+    <span class="k">\draw</span> (0,0) to[short] node[ground] <span class="nb">{}</span> (0,-1);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/ground.png" alt="image"></p>
+<p>下面是一种元件的标注方式</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>[european]
+    <span class="k">\draw</span> (0,0) to[R, l=<span class="s">$</span><span class="nb">R_</span><span class="m">1</span><span class="s">$</span>, a=<span class="s">$</span><span class="o">+</span><span class="nv">\quad</span><span class="nb"> u_</span><span class="m">1</span><span class="nv">\quad</span><span class="o">-</span><span class="s">$</span>] (2,0);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/component-label.png" alt="image"></p>
+<p>  对于多行标签引入 pbox 宏包自定义命令解决。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\usepackage</span><span class="nb">{</span>pbox<span class="nb">}</span>
+<span class="k">\newcommand</span><span class="nb">{</span><span class="k">\ctikzlabel</span><span class="nb">}</span>[3]<span class="nb">{</span><span class="k">\pbox</span><span class="nb">{</span><span class="k">\textwidth</span><span class="nb">}{</span>#1<span class="k">\\</span>#2<span class="k">\\</span>#3<span class="nb">}}</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+    <span class="k">\draw</span> (0,0) to[V, a=<span class="k">\ctikzlabel</span><span class="nb">{</span><span class="s">$</span><span class="o">+</span><span class="s">$</span><span class="nb">}{</span>12V<span class="nb">}{</span><span class="s">$</span><span class="o">-</span><span class="s">$</span><span class="nb">}</span>] (0,2);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/component-label1.png" alt="image"></p>
+<p>  一个小练习</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+    <span class="k">\draw</span> (0,0) to[V, a=<span class="k">\ctikzlabel</span><span class="nb">{</span><span class="s">$</span><span class="o">+</span><span class="s">$</span><span class="nb">}{</span>5V<span class="nb">}{</span><span class="s">$</span><span class="o">-</span><span class="s">$</span><span class="nb">}</span>] (0,2)
+    to[R, i=<span class="s">$</span><span class="nb">i_</span><span class="m">1</span><span class="s">$</span>, l=<span class="s">$</span><span class="m">8</span><span class="nv">\Omega</span><span class="s">$</span>] (2,2) to[cspst, l=S, o-o] (3,2)
+    to[R, l=<span class="s">$</span><span class="m">2</span><span class="nv">\Omega</span><span class="s">$</span>] (5,2) to[L, l=5mH, i=<span class="s">$</span><span class="nb">i_L</span><span class="s">$</span>] (5,0)
+    to[short] (0,0);
+    <span class="k">\draw</span> (3,0) to[cI, i=<span class="s">$</span><span class="m">3</span><span class="nb">i_</span><span class="m">1</span><span class="s">$</span>] (3,2);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/example_4.png" alt="image"></p>
+<p>  上面的例子中一些元件型号偏大，可以通过 <code>\ctikzset</code> 去设置一些参数，例如</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\ctikzset</span><span class="nb">{</span>
+    bipoles/length = 2em, <span class="c">% 基准元件大小
+</span><span class="c"></span>    font = <span class="k">\relsize</span><span class="nb">{</span>-1<span class="nb">}</span>, <span class="c">% 默认字体大小
+</span><span class="c"></span><span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>下面是一个例子</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-tex" data-lang="tex"><span class="k">\ctikzset</span><span class="nb">{</span>bipoles/length=.8cm<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>circuitikz<span class="nb">}</span>[scale=1.2]
+    <span class="k">\draw</span> (0,0) node[anchor=east] <span class="nb">{</span>B<span class="nb">}</span> to [short, o-] (1,0)
+    to [R, l=<span class="s">$</span><span class="m">20</span><span class="nv">\Omega</span><span class="s">$</span>, *-*] (1,2) to [short, -o] (0,2) node[anchor=east] <span class="nb">{</span>A<span class="nb">}</span>;
+    <span class="k">\draw</span> (1,0) -- (3,0) to[R, l=<span class="s">$</span><span class="m">5</span><span class="nv">\Omega</span><span class="s">$</span>, *-*] (3,2) to[R, l<span class="nb">_</span>=<span class="s">$</span><span class="m">10</span><span class="nv">\Omega</span><span class="s">$</span>, v<span class="nb">^</span>=<span class="s">$</span><span class="nb">v_x</span><span class="s">$</span>] (1,2);
+    <span class="k">\draw</span> (3,2) -- (4,2) to [cI, i<span class="nb">_</span>=<span class="s">$</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">5</span><span class="nb">}v_x</span><span class="s">$</span>, *-*] (4,0) -- (3,0);
+<span class="k">\end</span><span class="nb">{</span>circuitikz<span class="nb">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/circuitikz/example_5.png" alt="image"></p>
+<p>更多内容可以参考 <a href="/circuitikz/circuitikzmanual.pdf">circuitikzmanual</a></p>
     </div>
 
     
 <footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/tikz/">TikZ</a>
+          </div>
       <nav class="post-nav">
         
         <a class="next" href="/post/kuangbin-6/">
