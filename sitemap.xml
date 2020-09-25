@@ -3,7 +3,21 @@
   
   <url>
     <loc>http://note.2inf.top/</loc>
-    <lastmod>2020-09-07T23:53:45+08:00</lastmod>
+    <lastmod>2020-09-24T00:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/circuitikz/</loc>
+    <lastmod>2020-09-24T00:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/</loc>
+    <lastmod>2020-09-24T00:17:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,13 +45,6 @@
   
   <url>
     <loc>http://note.2inf.top/tags/kuangbin/</loc>
-    <lastmod>2020-09-07T23:53:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/post/</loc>
     <lastmod>2020-09-07T23:53:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
