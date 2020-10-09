@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CCCC on 2inf</title>
+    <link>http://note.2inf.top/tags/cccc/</link>
+    <description>Recent content in CCCC on 2inf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Oct 2020 18:02:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://note.2inf.top/tags/cccc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CCCC L2习题集</title>
+      <link>http://note.2inf.top/post/cccc-l2/</link>
+      <pubDate>Thu, 01 Oct 2020 18:02:30 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/cccc-l2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
