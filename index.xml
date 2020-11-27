@@ -6,10 +6,19 @@
     <description>Recent content on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:31:19 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2020 00:50:18 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>算法竞赛中的博弈问题</title>
+      <link>http://note.2inf.top/post/game-theory/</link>
+      <pubDate>Sun, 22 Nov 2020 00:50:18 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/game-theory/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[kuangbin带你飞]专题十二 基础DP1</title>
@@ -17,7 +26,7 @@
       <pubDate>Sat, 24 Oct 2020 00:31:19 +0800</pubDate>
       
       <guid>http://note.2inf.top/post/kuangbin-12/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
