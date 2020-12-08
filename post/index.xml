@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:50:18 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Dec 2020 21:31:48 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>csp认证 2019</title>
+      <link>http://note.2inf.top/post/csp2019/</link>
+      <pubDate>Wed, 02 Dec 2020 21:31:48 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/csp2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>算法竞赛中的博弈问题</title>

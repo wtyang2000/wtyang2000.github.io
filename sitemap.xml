@@ -3,28 +3,49 @@
   
   <url>
     <loc>http://note.2inf.top/</loc>
-    <lastmod>2020-11-22T00:50:18+08:00</lastmod>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/algorithm/</loc>
-    <lastmod>2020-11-22T00:50:18+08:00</lastmod>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/</loc>
-    <lastmod>2020-11-22T00:50:18+08:00</lastmod>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/ccf-csp/</loc>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/csp2019/</loc>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/post/</loc>
-    <lastmod>2020-11-22T00:50:18+08:00</lastmod>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/</loc>
+    <lastmod>2020-12-02T21:31:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,13 +66,6 @@
   
   <url>
     <loc>http://note.2inf.top/tags/kuangbin/</loc>
-    <lastmod>2020-10-24T00:31:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/tags/</loc>
     <lastmod>2020-10-24T00:31:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
