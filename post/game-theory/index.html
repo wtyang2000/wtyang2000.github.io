@@ -52,7 +52,7 @@
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2020-11-22T00:50:18&#43;08:00" />
 <meta itemprop="dateModified" content="2020-11-22T00:50:18&#43;08:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="312">
 
 
 
@@ -139,11 +139,26 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#巴什博弈bash-game">巴什博弈(Bash Game)</a></li>
+        <li><a href="#威佐夫博奕wythoff-game">威佐夫博奕(Wythoff Game)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      
+      <h2 id="巴什博弈bash-game">巴什博弈(Bash Game)</h2>
+<p>  一堆总数为 $n$ 的石子，两人轮流取石子，规定每次至少取一个，至多取 $m$ 个，取走最后一个石子的人为胜者。</p>
+<p><strong>结论:</strong> 如果 $(m+1)|n$ 则先手必败，否则先手必胜。</p>
+<p><strong>证明:</strong> 若 $(m+1)|n$，先手取走 $x$ 个时，后手可以取 $(m+1)-x$ 个，使得每回合取出总数为 $m+1$ 个，后手必胜。否则，先手取 $n%(m+1)$ 个石子，转化成前面的情况，后手必败。</p>
+<h2 id="威佐夫博奕wythoff-game">威佐夫博奕(Wythoff Game)</h2>
+<p>  有两堆石子，每堆数目不一定相同，两人轮流从某一堆或同时从两堆中取同样多的石子，不能取的人输。</p>
+<p>  定义先手必败的局势为奇异局势，打表可发现前几个奇异局势 $(0,0)、(1,2)、(3,5)、(4,7)、(6,10)、(8,13)、(9,15)、(11,18)、(12,20)$，假设 $(x,y)$ 为第 $k$ 个奇异局势，</p>
     </div>
 
     
@@ -195,7 +210,8 @@
 
   <span class="copyright-year">
     &copy; 
-    2020
+    2020 - 
+    2021
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
