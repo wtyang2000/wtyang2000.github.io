@@ -52,7 +52,7 @@
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2020-11-22T00:50:18&#43;08:00" />
 <meta itemprop="dateModified" content="2020-11-22T00:50:18&#43;08:00" />
-<meta itemprop="wordCount" content="312">
+<meta itemprop="wordCount" content="784">
 
 
 
@@ -145,6 +145,9 @@
       <ul>
         <li><a href="#巴什博弈bash-game">巴什博弈(Bash Game)</a></li>
         <li><a href="#威佐夫博奕wythoff-game">威佐夫博奕(Wythoff Game)</a></li>
+        <li><a href="#尼姆博弈nim-game">尼姆博弈(Nim Game)</a></li>
+        <li><a href="#sg-函数sprague-grundy-function">SG 函数(Sprague-Grundy function)</a></li>
+        <li><a href="#sg-定理spraguegrundy-theorem">SG 定理(Sprague–Grundy theorem)</a></li>
       </ul>
     </li>
   </ul>
@@ -157,8 +160,20 @@
 <p><strong>结论:</strong> 如果 $(m+1)|n$ 则先手必败，否则先手必胜。</p>
 <p><strong>证明:</strong> 若 $(m+1)|n$，先手取走 $x$ 个时，后手可以取 $(m+1)-x$ 个，使得每回合取出总数为 $m+1$ 个，后手必胜。否则，先手取 $n%(m+1)$ 个石子，转化成前面的情况，后手必败。</p>
 <h2 id="威佐夫博奕wythoff-game">威佐夫博奕(Wythoff Game)</h2>
+<p><a href="https://zh.wikipedia.org/wiki/%E5%A8%81%E4%BD%90%E5%A4%AB%E6%B8%B8%E6%88%8F">wiki讲解</a></p>
 <p>  有两堆石子，每堆数目不一定相同，两人轮流从某一堆或同时从两堆中取同样多的石子，不能取的人输。</p>
-<p>  定义先手必败的局势为奇异局势，打表可发现前几个奇异局势 $(0,0)、(1,2)、(3,5)、(4,7)、(6,10)、(8,13)、(9,15)、(11,18)、(12,20)$，假设 $(x,y)$ 为第 $k$ 个奇异局势，</p>
+<p>  定义先手必败的局势为奇异局势，打表可发现前几个奇异局势 $(0,0)、(1,2)、(3,5)、(4,7)、(6,10)、(8,13)、(9,15)、(11,18)、(12,20)$，假设 $(x,y)$ 为第 $k(k\ge0)$ 个奇异局势，$x$ 为 $0\sim k-1$ 个奇异局势中没有出现过的最小自然数，$y=x+k$，由 <a href="https://zh.wikipedia.org/wiki/%E8%B4%9D%E4%BA%9A%E8%92%82%E5%AE%9A%E7%90%86">$betty$ 定理</a>，第 $k$ 个奇异局势为 $\left(\lfloor\frac{1+\sqrt{5}}{2}k\rfloor,\lfloor\frac{3+\sqrt{5}}{2}k\rfloor\right)$，则 $k=y-x$ 以及可以用 $\frac{1+\sqrt{5}}{2}(y-x)=x$ 来判断是否先手必败。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2252">Luogu2252</a></p>
+<h2 id="尼姆博弈nim-game">尼姆博弈(Nim Game)</h2>
+<p>  有 $n$ 堆石子，第 $i$ 堆有 $a_i$ 个，两人轮流从任意一堆取至少一个石子，可以取光。</p>
+<p><strong>结论:</strong> 当 $a_1\oplus a_2\oplus\cdots\oplus a_n=0$ 时，先手必败。</p>
+<p><strong>证明:</strong> 考虑用数学归纳法。当没有石子时，先手必败。当当前状态是 $\oplus_{i=1}^na_i=k$ 时，至少存在一堆石子 $a_i$，$a_i$ 二进制表示上存在 $k$ 的最高位，显然有 $a_i\oplus k\lt a_i$，从 $a_i$ 中取走若干石子，使其变为 $a_i\oplus k$，所有石子数异或和为 0，回到先手必败的情况。</p>
+<h2 id="sg-函数sprague-grundy-function">SG 函数(Sprague-Grundy function)</h2>
+<p>  定义 mex(S) 为求出不属于集合 S 的最小自然数的运算。</p>
+<p>  在 DAG 中，对于节点 x，设从 x 出发共有 k 条有向边，分别到达节点 $y_1,y_2,\cdots,y_k$，定义 SG(x) 为 x 的后继节点 $y_1,y_2,\cdots,y_k$ 的函数值构成的集合再执行 mex 运算的结果:</p>
+<p>$$SG(x)=mex({SG(y_1),SG(y_2),\cdots,SG(y_k)})$$</p>
+<h2 id="sg-定理spraguegrundy-theorem">SG 定理(Sprague–Grundy theorem)</h2>
+<p><a href="https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem">wiki</a></p>
     </div>
 
     
