@@ -52,7 +52,7 @@
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2021-03-16T22:04:20&#43;08:00" />
 <meta itemprop="dateModified" content="2021-03-16T22:04:20&#43;08:00" />
-<meta itemprop="wordCount" content="31">
+<meta itemprop="wordCount" content="213">
 
 
 
@@ -147,6 +147,7 @@
           <ul>
             <li><a href="#1-期末预测之安全指数">1. 期末预测之安全指数</a></li>
             <li><a href="#2-期末预测之最佳阈值">2. 期末预测之最佳阈值</a></li>
+            <li><a href="#5-星际旅行">5. 星际旅行</a></li>
           </ul>
         </li>
       </ul>
@@ -157,8 +158,65 @@
 </div>
     <div class="post-content">
       <h2 id="202012">202012</h2>
-<p>惨败，不到 300 分。</p>
+<p>  惨败，不到 300 分，前两题是我考试时交的，最后一题线段树调了 1 个小时样例过了但爆 0 了。</p>
 <h3 id="1-期末预测之安全指数">1. 期末预测之安全指数</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;cstdio&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;cstring&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="cp">#define debug(x) cout &lt;&lt; #x &lt;&lt; &#34; is &#34; &lt;&lt; endl
+</span><span class="cp">#define ll long long
+</span><span class="cp"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">INF</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">);</span>
+        <span class="n">sum</span> <span class="o">+=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">sum</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">sum</span><span class="p">);</span>
+    <span class="k">else</span> <span class="n">puts</span><span class="p">(</span><span class="s">&#34;0&#34;</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="2-期末预测之最佳阈值">2. 期末预测之最佳阈值</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -167,7 +225,8 @@
 <pre class="chroma"><code class="language-cpp" data-lang="cpp">
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="2-期末预测之最佳阈值">2. 期末预测之最佳阈值</h3>
+</div><h3 id="5-星际旅行">5. 星际旅行</h3>
+<p>  题意：给出 $n(n\le1e9)$ 个初始为 0 的三元组，$m(m\le4e4)$ 次操作，区间乘、加、三元置换和求和操作。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
