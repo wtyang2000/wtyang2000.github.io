@@ -6,10 +6,28 @@
     <description>Recent content in Algorithm on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Mar 2021 22:04:20 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jun 2021 16:58:09 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[kuangbin带你飞]专题九 连通图</title>
+      <link>http://note.2inf.top/post/kuangbin-9/</link>
+      <pubDate>Thu, 03 Jun 2021 16:58:09 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[kuangbin带你飞]专题十六 KMP &amp; 扩展KMP &amp; Manacher</title>
+      <link>http://note.2inf.top/post/kuangbin-16/</link>
+      <pubDate>Thu, 25 Mar 2021 00:01:26 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-16/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>csp认证 2020</title>

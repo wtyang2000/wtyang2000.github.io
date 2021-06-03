@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>字符串 on 2inf</title>
+    <link>http://note.2inf.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+    <description>Recent content in 字符串 on 2inf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Mar 2021 00:01:26 +0800</lastBuildDate>
+    
+	<atom:link href="http://note.2inf.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[kuangbin带你飞]专题十六 KMP &amp; 扩展KMP &amp; Manacher</title>
+      <link>http://note.2inf.top/post/kuangbin-16/</link>
+      <pubDate>Thu, 25 Mar 2021 00:01:26 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/post/kuangbin-16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

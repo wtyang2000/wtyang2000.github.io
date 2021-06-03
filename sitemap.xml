@@ -3,21 +3,70 @@
   
   <url>
     <loc>http://note.2inf.top/</loc>
-    <lastmod>2021-03-16T22:04:20+08:00</lastmod>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/kuangbin-9/</loc>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/algorithm/</loc>
-    <lastmod>2021-03-16T22:04:20+08:00</lastmod>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/</loc>
-    <lastmod>2021-03-16T22:04:20+08:00</lastmod>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/kuangbin/</loc>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/</loc>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/</loc>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/tarjan/</loc>
+    <lastmod>2021-06-03T16:58:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/kuangbin-16/</loc>
+    <lastmod>2021-03-25T00:01:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</loc>
+    <lastmod>2021-03-25T00:01:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,20 +80,6 @@
   
   <url>
     <loc>http://note.2inf.top/post/csp2020/</loc>
-    <lastmod>2021-03-16T22:04:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/post/</loc>
-    <lastmod>2021-03-16T22:04:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/tags/</loc>
     <lastmod>2021-03-16T22:04:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -73,13 +108,6 @@
   
   <url>
     <loc>http://note.2inf.top/post/kuangbin-12/</loc>
-    <lastmod>2020-10-24T00:31:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://note.2inf.top/tags/kuangbin/</loc>
     <lastmod>2020-10-24T00:31:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
