@@ -6,10 +6,28 @@
     <description>Recent content in Tags on 2inf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jun 2021 16:58:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 31 Aug 2021 18:25:29 +0800</lastBuildDate>
     
 	<atom:link href="http://note.2inf.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>acwing</title>
+      <link>http://note.2inf.top/tags/acwing/</link>
+      <pubDate>Tue, 31 Aug 2021 18:25:29 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/tags/acwing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ccf-csp</title>
+      <link>http://note.2inf.top/tags/ccf-csp/</link>
+      <pubDate>Mon, 30 Aug 2021 23:03:14 +0800</pubDate>
+      
+      <guid>http://note.2inf.top/tags/ccf-csp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kuangbin</title>
@@ -35,15 +53,6 @@
       <pubDate>Thu, 25 Mar 2021 00:01:26 +0800</pubDate>
       
       <guid>http://note.2inf.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ccf-csp</title>
-      <link>http://note.2inf.top/tags/ccf-csp/</link>
-      <pubDate>Tue, 16 Mar 2021 22:04:20 +0800</pubDate>
-      
-      <guid>http://note.2inf.top/tags/ccf-csp/</guid>
       <description></description>
     </item>
     
