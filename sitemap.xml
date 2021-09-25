@@ -3,48 +3,62 @@
   
   <url>
     <loc>http://note.2inf.top/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/tags/acwing/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://note.2inf.top/post/acwingtigao1/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <loc>http://note.2inf.top/post/acwingtigao4/</loc>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/algorithm/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/categories/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/post/</loc>
-    <lastmod>2021-08-31T18:25:29+08:00</lastmod>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://note.2inf.top/tags/</loc>
+    <lastmod>2021-09-09T23:21:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/acwingtigao3/</loc>
+    <lastmod>2021-09-09T23:21:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://note.2inf.top/post/acwingtigao1/</loc>
     <lastmod>2021-08-31T18:25:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
