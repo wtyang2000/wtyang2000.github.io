@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>AcWing 算法提高第三章 - 2inf</title>
+  <title>AcWing 算法提高第三章  图论 - 2inf</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -42,22 +42,22 @@
 
 
 
-<meta property="og:title" content="AcWing 算法提高第三章" />
+<meta property="og:title" content="AcWing 算法提高第三章  图论" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://note.2inf.top/post/acwingtigao3/" />
 <meta property="article:published_time" content="2021-09-09T23:21:12+08:00" />
 <meta property="article:modified_time" content="2021-09-09T23:21:12+08:00" />
-<meta itemprop="name" content="AcWing 算法提高第三章">
+<meta itemprop="name" content="AcWing 算法提高第三章  图论">
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2021-09-09T23:21:12&#43;08:00" />
 <meta itemprop="dateModified" content="2021-09-09T23:21:12&#43;08:00" />
-<meta itemprop="wordCount" content="1532">
+<meta itemprop="wordCount" content="1956">
 
 
 
 <meta itemprop="keywords" content="acwing," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="AcWing 算法提高第三章"/>
+<meta name="twitter:title" content="AcWing 算法提高第三章  图论"/>
 <meta name="twitter:description" content=""/>
 
 <!--[if lte IE 9]>
@@ -125,7 +125,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">AcWing 算法提高第三章</h1>
+      <h1 class="post-title">AcWing 算法提高第三章  图论</h1>
 
       <div class="post-meta">
         <span class="post-time"><i class="fa fa-calendar-alt" aria-hidden="true"></i> 2021-09-09 </span>
@@ -143,6 +143,7 @@
   <ul>
     <li>
       <ul>
+        <li><a href="#欧拉回路与欧拉路径">欧拉回路与欧拉路径</a></li>
         <li><a href="#拓扑排序">拓扑排序</a></li>
       </ul>
     </li>
@@ -151,7 +152,76 @@
   </div>
 </div>
     <div class="post-content">
-      <h2 id="拓扑排序">拓扑排序</h2>
+      <h2 id="欧拉回路与欧拉路径">欧拉回路与欧拉路径</h2>
+<p>一笔画条件：起点边数 = 奇数，终点边数 = 奇数，中间点边数= 偶数。</p>
+<p>欧拉回路:终点就是起点
+一、无向图
+1 存在欧拉路径的充要条件 : 度数为奇数的点只能有0或2个
+2 存在欧拉回路的充要条件 : 度数为奇数的点只能有0个
+二、有向图
+1 存在欧拉路径的充要条件 : 要么所有点的出度均==入度；
+要么除了两个点之外，其余所有点的出度==入度 剩余的两个点:一个满足出度-入度==1(起点) 一个满足入度-出度==1(终点)
+2 存在欧拉回路的充要条件 : 所有点的出度均等于入度</p>
+<p><a href="https://www.acwing.com/problem/content/description/1125/">1123. 铲雪车</a></p>
+<p>题意：在双向道铲雪，每条边都要铲两次，求最少铲雪时间。</p>
+<p>双向道说明出度=入度，必然存在欧拉回路，直接求路径长度乘 2 然后计算时间即可。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="cp">#define debug(x) cout &lt;&lt; #x &lt;&lt; &#34; is &#34; &lt;&lt; x &lt;&lt; endl
+</span><span class="cp"></span><span class="k">typedef</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">ll</span><span class="p">;</span>
+<span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">INF</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">sum</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+<span class="p">{</span>
+	<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">s</span> <span class="o">&gt;&gt;</span> <span class="n">t</span><span class="p">;</span>
+	<span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">s</span> <span class="o">&gt;&gt;</span> <span class="n">t</span> <span class="o">&gt;&gt;</span> <span class="n">u</span> <span class="o">&gt;&gt;</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kt">double</span> <span class="n">dx</span> <span class="o">=</span> <span class="n">s</span> <span class="o">-</span> <span class="n">u</span><span class="p">;</span>
+		<span class="kt">double</span> <span class="n">dy</span> <span class="o">=</span> <span class="n">t</span> <span class="o">-</span> <span class="n">v</span><span class="p">;</span>
+		<span class="n">sum</span> <span class="o">+=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">dx</span> <span class="o">*</span> <span class="n">dx</span> <span class="o">+</span> <span class="n">dy</span> <span class="o">*</span> <span class="n">dy</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="kt">int</span> <span class="n">minutes</span> <span class="o">=</span> <span class="n">round</span><span class="p">(</span><span class="n">sum</span> <span class="o">/</span> <span class="mi">1000</span> <span class="o">/</span> <span class="mi">20</span> <span class="o">*</span> <span class="mi">60</span><span class="p">);</span>
+	<span class="kt">int</span> <span class="n">hours</span> <span class="o">=</span> <span class="n">minutes</span> <span class="o">/</span> <span class="mi">60</span><span class="p">;</span>
+	<span class="n">minutes</span> <span class="o">%=</span> <span class="mi">60</span><span class="p">;</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d:%02d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">hours</span><span class="p">,</span> <span class="n">minutes</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="拓扑排序">拓扑排序</h2>
 <p><a href="https://www.acwing.com/problem/content/1193/">1191. 家谱树</a></p>
 <p>题意：模板题，求 $n$ 个点有向图的拓扑序。</p>
 <div class="highlight"><div class="chroma">
@@ -652,11 +722,11 @@
       <nav class="post-nav">
         <a class="prev" href="/post/acwingtigao4/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">AcWing 算法提高第四章</span>
+            <span class="prev-text nav-default">AcWing 算法提高第四章  高级数据结构</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         <a class="next" href="/post/acwingtigao1/">
-            <span class="next-text nav-default">AcWing 算法提高第一章</span>
+            <span class="next-text nav-default">AcWing 算法提高第一章  动态规划</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
